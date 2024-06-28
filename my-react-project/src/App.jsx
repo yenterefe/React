@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Span from './Span'
 import Input from './Input'
 import Button from './Button'
 
@@ -21,7 +22,7 @@ function App() {
 
   return (
     <div className="body">
-      <span className='bookIcon'> 📚 </span>
+      <Span />
       <Input text={getText} />
       <Button value={getValue} />
       <p> {word} </p>
